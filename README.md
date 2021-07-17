@@ -5,6 +5,8 @@ Takes video of gait motion from sagittal perspective, tracks the position each j
 
 ## Methods
 The joints are tracked at their centroid by RGB thresholding each frame of the video into a binary frame for each joint (as shown in *FIGURE 1*) as a matrix (2-dimensional array). The custom function `Centroid.m` determines the binary row and column with the highest binary sums, of which it uses to determine the centroid of the joint in that frame. The centroids of each joint are seperately recorded for each frame of the given video (as shown in *FIGURE 1*), after which they are used to develop a wireframe model of the observed motion (as shown in *FIGURE 2*).
+### Dependencies
+- MATLAB Image Processing Toolkit
 
 *FIGURE 1*
 
