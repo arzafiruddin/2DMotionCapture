@@ -17,4 +17,4 @@ The joints are tracked at their centroid by RGB thresholding each frame of the v
 ![alt text](https://github.com/arzafiruddin/2DMotionCapture/blob/27fdb564b5e99c37ca447b0cd576924fdf94214f/readme_assets/kickwireframegif.gif)
 
 ## Acknowledgments
-- Dr. Naji Husseini, PhD (North Carolina State University - Department of Biomedical Engineering) aided in developed of `Centroid.m` program
+- Dr. Naji Husseini, PhD (North Carolina State University - Department of Biomedical Engineering) aided in developed of `Centroid.m` program as part of BMME 201 course
