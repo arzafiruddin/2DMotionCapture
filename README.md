@@ -10,7 +10,7 @@ The joints are tracked at their centroid by RGB thresholding each frame of the v
 ### Modeling
 The centroids of each joint are seperately recorded for each frame of the given video (as shown in *FIGURE 1*), after which they are used to develop a wireframe model of the observed motion (as shown in *FIGURE 2*).
 
-> NOTE: The model can be exported as an .avi file, which is **highly recommended** for computers which may not have the ability to process the model in real-time at a reasonable viewing speed.
+> NOTE: The model can be exported, which is **highly recommended** for computers which may not have the ability to process the model in real-time at a reasonable viewing speed.
 
 ### Figures
 
